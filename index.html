@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Volara's Guide to Making Chatbots &amp; AI Art</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="left-panel" id="left-panel">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="left-top">
+      <button class="menu-btn" id="menu-btn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="brand-mark" id="brand-mark">
+        <div class="mark"></div><span>Volara's Guide</span>
+      </div>
+    </div>
+    <div class="left-mid">
+      <div class="crumb" id="crumb"></div>
+      <div class="topic-num" id="topic-num"></div>
+      <h1 id="topic-title"></h1>
+    </div>
+    <div class="left-bottom">
+      <div class="prog-bar"><div id="prog-fill"></div></div>
+      <div class="prog-label" id="prog-label"></div>
+    </div>
+  </aside>
+
+  <main class="right-panel" id="right-panel"></main>
+</div>
+
+<div class="nav-overlay" id="nav-overlay">
+  <div class="nav-drawer">
+    <div class="drawer-head">
+      <div class="drawer-title">Browse the guide</div>
+      <button class="close-btn" id="close-btn" aria-label="Close menu">✕</button>
+    </div>
+    <div class="search-wrap">
+      <input type="text" id="search-input" placeholder="Search the guide…">
+    </div>
+    <div class="progress-box">
+      <div class="row"><span id="progress-read">0 / 0 read</span></div>
+      <div class="progress-bar"><div id="progress-bar-fill" style="width:0%"></div></div>
+      <div class="row"><span id="progress-quiz">0 / 0 quizzes passed</span></div>
+    </div>
+    <nav class="tree" id="nav-tree"></nav>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

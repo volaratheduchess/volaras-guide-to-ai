@@ -1,0 +1,142 @@
+[
+  {
+    "title": "AnimeGenius",
+    "href": "https://animegenius.live3d.io/text-to-image",
+    "cover": "assets/ai-art-resources-list-of-platforms-animegenius-138.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Bing Image Creator",
+    "href": "https://www.bing.com/images/create",
+    "cover": "assets/ai-art-resources-list-of-platforms-bing-image-creator-139.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "BlackBox AI",
+    "href": "https://www.blackbox.ai/agent/ImageGenerationLV45LJp",
+    "cover": "assets/ai-art-resources-list-of-platforms-blackbox-ai-140.png",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "CivitAI",
+    "href": "https://civitai.com/",
+    "cover": "assets/ai-art-resources-list-of-platforms-civitai-141.png",
+    "type": "Web platform",
+    "desc": "Community model hub with prompt-guidance articles (referenced directly in the guide)."
+  },
+  {
+    "title": "Leonardo",
+    "href": "https://app.leonardo.ai/ai-generations",
+    "cover": "assets/ai-art-resources-list-of-platforms-leonardo-142.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Microsoft Copilot",
+    "href": "https://copilot.microsoft.com/",
+    "cover": null,
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Midjourney/Niji",
+    "href": "https://www.midjourney.com/explore?tab=top",
+    "cover": "assets/ai-art-resources-list-of-platforms-midjourney-niji-144.webp",
+    "type": "Web platform",
+    "desc": "Niji and Midjourney merged into one platform — see the guide's weighted-prompting notes for how weights behave here."
+  },
+  {
+    "title": "Novel AI",
+    "href": "https://novelai.net/",
+    "cover": "assets/ai-art-resources-list-of-platforms-novel-ai-146.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "OpenArt AI",
+    "href": "https://openart.ai/",
+    "cover": "assets/ai-art-resources-list-of-platforms-openart-ai-147.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Perchance",
+    "href": "https://perchance.org/8xa4skz1er",
+    "cover": "assets/ai-art-resources-list-of-platforms-perchance-148.png",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "PixAI",
+    "href": "https://pixai.art/",
+    "cover": "assets/ai-art-resources-list-of-platforms-pixai-149.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Playground",
+    "href": "https://playground.com/",
+    "cover": "assets/ai-art-resources-list-of-platforms-playground-150.png",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Promptchan AI",
+    "href": "https://promptchan.com/ai-generator",
+    "cover": "assets/ai-art-resources-list-of-platforms-promptchan-ai-151.png",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "SD A1111",
+    "href": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "cover": null,
+    "type": "Local install",
+    "desc": ""
+  },
+  {
+    "title": "SD Forge",
+    "href": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+    "cover": null,
+    "type": "Local install",
+    "desc": ""
+  },
+  {
+    "title": "SeaArt",
+    "href": "https://www.seaart.ai/",
+    "cover": "assets/ai-art-resources-list-of-platforms-seaart-152.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Shakker",
+    "href": "https://www.shakker.ai/",
+    "cover": "assets/ai-art-resources-list-of-platforms-shakker-153.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "Tensor",
+    "href": "https://tensor.art/",
+    "cover": "assets/ai-art-resources-list-of-platforms-tensor-154.webp",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "getimg.ai",
+    "href": "https://getimg.ai/",
+    "cover": "assets/ai-art-resources-list-of-platforms-getimg-ai-155.png",
+    "type": "Web platform",
+    "desc": ""
+  },
+  {
+    "title": "sexy.ai",
+    "href": "https://sexy.ai/",
+    "cover": "assets/ai-art-resources-list-of-platforms-sexy-ai-156.png",
+    "type": "Web platform",
+    "desc": ""
+  }
+]

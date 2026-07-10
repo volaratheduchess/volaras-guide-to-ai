@@ -1,0 +1,278 @@
+{
+  "making-chatbots-bot-creation-writing-personality": {
+    "title": "Writing Personality — Check Yourself",
+    "questions": [
+      {
+        "q": "Where should \"System Rules\" always be placed in a bot's personality?",
+        "options": [
+          "At the very top",
+          "Right after the name",
+          "Always last",
+          "Order doesn't matter"
+        ],
+        "answer": 2,
+        "explain": "The guide is explicit: System Rules should always go last, after identity, character profile, and any world/tracker info."
+      },
+      {
+        "q": "In a Character Profile, which trio should be placed at the very top as \"most important\"?",
+        "options": [
+          "Backstory, Speech Patterns, Quirks",
+          "Name, Age, Physical Description",
+          "Likes, Dislikes, Sexuality",
+          "System Rules"
+        ],
+        "answer": 1,
+        "explain": "Name, age, and physical description are flagged as \"most important\" and belong before personality description and everything else."
+      },
+      {
+        "q": "True or False: it's best to refer to your bot as \"{{char}}\" constantly instead of its real name.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "explain": "The guide says using the actual name is typically best — overusing {{char}} can confuse the bot."
+      }
+    ]
+  },
+  "making-chatbots-bot-creation-bot-personality-formatting": {
+    "title": "Bot Personality Formatting — Check Yourself",
+    "questions": [
+      {
+        "q": "True or False: the NSFW / Sensitive Content Handling section is required in every bot template.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "explain": "It's explicitly labeled OPTIONAL in the advanced template."
+      },
+      {
+        "q": "Per the \"Boundaries & Consistency Rules\" example, what should a bot NEVER do?",
+        "options": [
+          "Stay in character",
+          "Mention being an AI or language model",
+          "Respond to the user",
+          "Use endearment terms"
+        ],
+        "answer": 1,
+        "explain": "The \"Never\" list starts with: mention being an AI or language model, and break immersion."
+      }
+    ]
+  },
+  "making-chatbots-bot-creation-multi-bots": {
+    "title": "Multi-Bots — Check Yourself",
+    "questions": [
+      {
+        "q": "Which of these is NOT one of the three multi-bot methods in the guide?",
+        "options": [
+          "Precoding Characters",
+          "Random NPC Generator",
+          "Relying on IP/Franchise Universes",
+          "Auto-Translate Mode"
+        ],
+        "answer": 3,
+        "explain": "\"Auto-Translate Mode\" isn't a real method here — the three are precoding, random NPC generation, and IP/franchise universes."
+      },
+      {
+        "q": "True or False: precoding means writing out each character's full description individually (e.g. {{char1}}, {{char2}}...).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0,
+        "explain": "That's exactly the precoding approach shown in the Killer Derby example."
+      }
+    ]
+  },
+  "making-chatbots-json": {
+    "title": "JSON — Check Yourself",
+    "questions": [
+      {
+        "q": "What's the main practical benefit of saving a bot as a JSON file?",
+        "options": [
+          "It makes the bot's writing smarter",
+          "It lets you upload the bot across sites without retyping everything",
+          "It's required by every chatbot site",
+          "It auto-translates the bot"
+        ],
+        "answer": 1,
+        "explain": "JSON is a portable save file — it saves you from re-entering the whole character on every platform."
+      },
+      {
+        "q": "True or False: every AI chatbot site supports uploading .json files.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "explain": "The guide notes \"many, but not all sites allow you to upload as .json files.\""
+      }
+    ]
+  },
+  "ai-art-resources-image-prompting-basic-prompting": {
+    "title": "Basic Prompting — Check Yourself",
+    "questions": [
+      {
+        "q": "In basic prompting, which part of the prompt tends to carry the most weight?",
+        "options": [
+          "The end",
+          "The middle",
+          "The beginning",
+          "It's all equal"
+        ],
+        "answer": 2,
+        "explain": "Words at the beginning of the prompt hold more weight than those at the end."
+      },
+      {
+        "q": "Why do vague prompts often default toward photorealism?",
+        "options": [
+          "AI inherently prefers realism",
+          "Most training image-text pairs are photos/stock images",
+          "Painted styles are rare online",
+          "It's random"
+        ],
+        "answer": 1,
+        "explain": "Since models learn from frequency, and most training pairs are photographic, \"realistic\" becomes the default baseline for vague prompts."
+      }
+    ]
+  },
+  "ai-art-resources-image-prompting-structured-prompting": {
+    "title": "Structured Prompting — Check Yourself",
+    "questions": [
+      {
+        "q": "Structured prompting relies mainly on:",
+        "options": [
+          "Full descriptive sentences",
+          "Lists of attributes and keywords",
+          "Only negative prompts",
+          "Weighted numbers"
+        ],
+        "answer": 1,
+        "explain": "It's built on attribute/keyword lists rather than full sentences."
+      },
+      {
+        "q": "What's a downside of \"grouping\" prompt elements (art style: X + subject: Y) vs. stating them directly?",
+        "options": [
+          "It's shorter",
+          "It uses more characters",
+          "It confuses the AI more",
+          "There's no downside"
+        ],
+        "answer": 1,
+        "explain": "Grouping helps avoid value mix-ups but costs more character count than direct statement."
+      }
+    ]
+  },
+  "ai-art-resources-image-prompting-negative-prompting": {
+    "title": "Negative Prompting — Check Yourself",
+    "questions": [
+      {
+        "q": "True or False: you should type words like \"not\" or \"no\" inside the negative prompt field.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "explain": "That creates a double negative — the field already means \"avoid this,\" so adding negation flips the meaning."
+      },
+      {
+        "q": "Negative prompts are good for fixing all of these EXCEPT:",
+        "options": [
+          "Anatomy errors like extra fingers",
+          "Watermarks and logos",
+          "Blurry/low quality results",
+          "Making the AI more creative overall"
+        ],
+        "answer": 3,
+        "explain": "Too many negatives actually limit the AI's creativity — they're a filter, not a creativity boost."
+      }
+    ]
+  },
+  "ai-art-resources-image-prompting-advanced-prompting": {
+    "title": "Advanced (Weighted) Prompting — Check Yourself",
+    "questions": [
+      {
+        "q": "What's the universally recommended weight scale range to stay within?",
+        "options": [
+          "0.01–100",
+          "0.5–1.5",
+          "2–5",
+          "1–10"
+        ],
+        "answer": 1,
+        "explain": "Weights technically go 0.01–100, but the recommended safe range is 0.5–1.5 to avoid deformity."
+      },
+      {
+        "q": "Which brackets should you use for factor weighting like (term:factor)?",
+        "options": [
+          "[ ]",
+          "{ }",
+          "( )",
+          "< >"
+        ],
+        "answer": 2,
+        "explain": "Parentheses — the guide notes [] does not work with this system."
+      },
+      {
+        "q": "True or False: weighted prompting works identically across Stable Diffusion, Midjourney/Niji, and Flux.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "explain": "Weights are most reliable in Stable Diffusion; Flux doesn't support them (or negative prompts), and Midjourney/Niji handles them differently."
+      }
+    ]
+  },
+  "making-chatbots-bot-creation-embedding-images-and-gifs": {
+    "title": "Embedding Images & GIFs — Check Yourself",
+    "questions": [
+      {
+        "q": "True or False: you can embed an image directly from your phone or computer's local storage.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 1,
+        "explain": "Images must be hosted online with a direct link starting with http — you can't reference a local file."
+      },
+      {
+        "q": "What's the purpose of the text inside the brackets, e.g. ![description here]?",
+        "options": [
+          "It sets the image size",
+          "It's alt text for accessibility / shown if the image fails to load",
+          "It's required to match the file name",
+          "It has no purpose"
+        ],
+        "answer": 1,
+        "explain": "That's the alt text — used by screen readers and shown if the image link breaks."
+      }
+    ]
+  },
+  "ai-art-resources-image-generation-tricks-artistic-mediums": {
+    "title": "Artistic Mediums & Lighting — Check Yourself",
+    "questions": [
+      {
+        "q": "True or False: if you don't specify a medium, the model defaults to a blended digital style.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": 0,
+        "explain": "Stated directly at the top of Artistic Mediums."
+      },
+      {
+        "q": "Which of these is a \"directional lighting\" technique in the guide?",
+        "options": [
+          "Subsurface scattering",
+          "Rembrandt lighting",
+          "Golden hour sunlight",
+          "Crushed blacks"
+        ],
+        "answer": 1,
+        "explain": "Rembrandt lighting (the triangle cheek highlight) is listed under Directional Lighting; the others are texture, environmental, and contrast behaviors respectively."
+      }
+    ]
+  }
+}

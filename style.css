@@ -1,0 +1,402 @@
+/* ========================= */
+/* ⚙️ RESET */
+/* ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Garamond", serif;
+}
+
+body, html {
+  height: 100%;
+  background: radial-gradient(circle at top, #0a001a, #05000f);
+  color: #00ffee;
+  overflow-x: hidden;
+}
+
+/* ========================= */
+/* ⚙️ LAYOUT */
+/* ========================= */
+.container {
+  display: block;
+  height: 100vh;
+}
+
+/* ========================= */
+/* ⚙️ SIDEBAR */
+/* ========================= */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 25%;
+  min-width: 220px;
+  height: 100vh;
+
+  background: linear-gradient(180deg, #120033, #05000f);
+  border-right: 2px solid #5900ff;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+  color: #00ffee;
+  font-size: 1.6em;
+  text-shadow: 0 0 10px #00ffee;
+}
+
+/* NAV */
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar li:hover {
+  color: #00ffee;
+  transform: translateX(6px);
+}
+
+/* BUTTON RESET */
+button {
+  background: none;
+  border: none;
+  color: #00ffee;
+  cursor: pointer;
+}
+
+/* JOIN BUTTON */
+.join-btn {
+  display: inline-block;
+  padding: 10px 20px;
+
+  color: #05000f;
+  background: linear-gradient(to bottom, #00ffee, #5900ff);
+
+  border-radius: 6px;
+  text-decoration: none;
+
+  box-shadow: 0 0 10px rgba(0,255,238,0.5);
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,238,0.8);
+}
+
+/* ========================= */
+/* ⚙️ MAIN */
+/* ========================= */
+.main {
+  margin-left: 25%;
+  width: 75%;
+
+  height: 100vh;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========================= */
+/* ⚙️ HERO */
+/* ========================= */
+.hero {
+  position: relative;
+  height: 75%;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3em;
+  color: #00ffee;
+  text-shadow: 0 0 20px #00ffee;
+}
+
+.overlay p {
+  margin-top: 10px;
+  color: #b0fefe;
+}
+
+/* ========================= */
+/* ⚙️ PANELS */
+/* ========================= */
+.panels {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  padding: 20px;
+
+  border-top: 2px solid #5900ff;
+  border-right: 1px solid #5900ff;
+
+  background: linear-gradient(145deg, #120033, #05000f);
+
+  text-decoration: none;
+  color: #00ffee;
+
+  transition: 0.3s;
+}
+
+.panel:last-child {
+  border-right: none;
+}
+
+.panel:hover {
+  background: #1a0050;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(89,0,255,0.6);
+}
+
+/* ========================= */
+/* ⚙️ DIRECTORY */
+/* ========================= */
+.directory-header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#searchInput {
+  width: 60%;
+  padding: 12px;
+  margin-top: 15px;
+
+  border-radius: 5px;
+  border: 1px solid #5900ff;
+
+  background: #05000f;
+  color: #00ffee;
+}
+
+/* TAGS */
+.tags {
+  margin-top: 20px;
+}
+
+.tag {
+  background: none;
+  border: 1px solid #5900ff;
+  color: #00ffee;
+
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.tag.active,
+.tag:hover {
+  background: #00ffee;
+  color: #05000f;
+}
+
+/* ========================= */
+/* ⚙️ BOT GRID */
+/* ========================= */
+.bot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 40px;
+  gap: 20px;
+}
+
+
+.bot-card {
+  display: flex;            /* 👈 makes image + text side-by-side */
+  flex-wrap: wrap; /* 👈 allows stacking if needed */
+  gap: 15px;
+  align-items: flex-start;
+
+  background: linear-gradient(145deg, #120033, #05000f);
+  border: 1px solid #5900ff;
+  padding: 15px;
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+.bot-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0,255,238,0.6);
+}
+
+/* IMAGE */
+.bot-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+
+  flex-shrink: 0; /* 👈 prevents squishing */
+}
+
+/* RIGHT SIDE CONTENT */
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAME */
+.card-content h2 {
+  margin-bottom: 5px;
+  color: #00ffee;
+}
+
+/* DESCRIPTION */
+.card-content p {
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+
+/* TAGS */
+.bot-tags {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+/* BUTTON ROW */
+.card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+/* ========================= */
+/* ⚙️ MINI BUTTON */
+/* ========================= */
+.mini-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 6px 12px;
+
+  font-size: 0.8em;
+  text-decoration: none;
+
+  color: #05000f;
+  background: linear-gradient(to bottom, #00ffee, #5900ff);
+
+  border-radius: 4px;
+  border: none;
+
+  transition: 0.2s;
+}
+
+.mini-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(0,255,238,0.8);
+}
+
+
+
+
+
+
+
+
+
+/* ========================= */
+/* 📱 MOBILE */
+/* ========================= */
+@media (max-width: 768px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    border-right: none;
+    border-bottom: 2px solid #5900ff;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .main {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .hero {
+    height: 40vh;
+  }
+
+  .overlay h1 {
+    font-size: 2em;
+  }
+
+  .panels {
+    flex-direction: column;
+  }
+
+  .bot-grid {
+    padding: 20px;
+  }
+
+  #searchInput {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .bot-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bot-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-buttons {
+    justify-content: center;
+  }
+}
