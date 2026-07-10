@@ -27,5 +27,3 @@ These are some common tools that you may need or use when making images. There i
 ### Retoucher
 
 > Smooths skin, fix blemishes, adjust lighting and other touch ups.
-
----

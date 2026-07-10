@@ -29,7 +29,8 @@ Similar to Canva but has a nice collage feature for images. Has a free plan but 
 
 A versatile and free online image editor and GIF maker that delivers powerful features—ranging from basic adjustments and filters to animations and collage tools—all accessible through your browser. It’s ideal for anyone looking for a fast, no-install editing experience, especially for creative or social media-friendly tasks.
 
-> **Mobile**: [App Store](https://apps.apple.com/mn/app/lunapic-photo-editor/id1063701569), [Google Play Store](https://play.google.com/store/apps/details?id=com.rvdapps.lunapicphotoeditor&hl=en-US) **Website**: [Lunapic](https://www5.lunapic.com/editor/)
+> **Mobile**: [App Store](https://apps.apple.com/mn/app/lunapic-photo-editor/id1063701569), [Google Play Store](https://play.google.com/store/apps/details?id=com.rvdapps.lunapicphotoeditor&hl=en-US)
+> **Website**: [Lunapic](https://www5.lunapic.com/editor/)
 
 ---
 
@@ -63,7 +64,6 @@ Image upscaler with the ability to remove backgrounds and other AI tools.
 
 A website with an AI Background Remover, enhancer, image expander, eraser, and more tools.
 
-> **Mobile**: App Store, Google Play Store  
 > **Website**: [indMind](https://www.insmind.com/)
 
 ---
