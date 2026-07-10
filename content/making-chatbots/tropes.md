@@ -1,7 +1,7 @@
 ---
 title: Tropes
 slug: making-chatbots-writing-resources-tropes
-order: 20
+order: 16
 group: Writing Resources
 ---
 

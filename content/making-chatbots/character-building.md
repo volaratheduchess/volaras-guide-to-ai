@@ -1,7 +1,7 @@
 ---
 title: Character Building
 slug: making-chatbots-writing-resources-character-building
-order: 16
+order: 19
 group: Writing Resources
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Archetypes
 slug: making-chatbots-writing-resources-archetypes
-order: 15
+order: 17
 group: Writing Resources
 ---
 

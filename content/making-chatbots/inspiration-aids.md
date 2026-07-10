@@ -1,7 +1,7 @@
 ---
 title: Inspiration Aids
 slug: making-chatbots-writing-resources-inspiration-aids
-order: 18
+order: 15
 group: Writing Resources
 ---
 

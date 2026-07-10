@@ -1,7 +1,7 @@
 ---
 title: Character Traits
 slug: making-chatbots-writing-resources-character-traits
-order: 17
+order: 18
 group: Writing Resources
 ---
 

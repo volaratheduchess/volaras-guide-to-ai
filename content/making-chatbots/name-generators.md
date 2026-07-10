@@ -1,7 +1,7 @@
 ---
 title: Name Generators
 slug: making-chatbots-writing-resources-name-generators
-order: 19
+order: 20
 group: Writing Resources
 ---
 
