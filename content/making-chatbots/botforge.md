@@ -25,7 +25,7 @@ A few practical things worth knowing going in:
 - **18+ only.** BotForge requires users to be 18 or older, and prohibits any sexual or romantic content involving minors — enforced with immediate account termination.
 - **Accounts run through Firebase (Google)** for login and data storage — you're agreeing to Google's terms as part of using the site, on top of BotForge's own.
 - Visibility is controlled per item — anything you mark **Private** stays visible only to you; **Public** items are visible to other BotForge users.
-- Core tools are free; some features (creating new bots, lorebooks, collections, and posts beyond a certain point) require a **premium subscription**, billed through LemonSqueezy.
+- Core tools are free; some features (creating new bots, lorebooks, collections, and posts beyond a certain point) require a **premium subscription**, billed through Patreon.
 - Support and feature requests go through their [Discord](https://discord.gg/C7VwMfQxdZ), not email.
 
 ## Why bother with separate storage at all
