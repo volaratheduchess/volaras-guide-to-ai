@@ -16,7 +16,7 @@ Think of it as a home base for your bots that exists independently of any single
 - **Bot Directory** — your own personal library of everything you've made, kept in one place instead of scattered across platform accounts.
 - **Lore Manager** — for tracking worldbuilding, backstory, and setting details that span multiple bots or a shared universe (useful alongside the [Multi-Bots](#making-chatbots-bot-creation-multi-bots) page if you're running a franchise-style cast).
 - **Collections** — grouping related bots or lore together.
-- **Community feed** — a space to share and discover bots from other BotForge users, separate from any one platform's own discovery feed.
+- **Community feed** — a space to share and discover bots from other Quill & Anchor users, separate from any one platform's own discovery feed.
 - **HTML Builder** — easily build HTMLs with customizable features.
 - **Watermarker** — stamp your images with watermarks, either text or image, with batch processing.
 - **Concept Forge** — a randomizer to help plan your next bot.
@@ -28,7 +28,7 @@ Think of it as a home base for your bots that exists independently of any single
 A few practical things worth knowing going in:
 
 - **18+ only.** Quill & Anchor requires users to be 18 or older, and prohibits any sexual or romantic content involving minors — enforced with immediate account termination.
-- **Accounts run through Firebase (Google)** for login and data storage — you're agreeing to Google's terms as part of using the site, on top of BotForge's own.
+- **Accounts run through Firebase (Google)** for login and data storage — you're agreeing to Google's terms as part of using the site, on top of Quill & Anchor's own.
 - Visibility is controlled per item — anything you mark **Private** stays visible only to you; **Public** items are visible to other Quill & Anchor users.
 - Core tools are free; some features (creating new bots, lorebooks, collections, and posts beyond a certain point) require a **premium subscription**, billed through Patreon.
 - Support and feature requests go through their [Discord](https://discord.gg/C7VwMfQxdZ), not email.
