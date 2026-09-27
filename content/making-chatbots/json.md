@@ -14,9 +14,9 @@ But what JSON means to the AI Chatbot Community is a file that you save your bot
 
 # Creating JSONs
 
-## BotForge
+## Quill & Anchor
 
-Go to the [BotForge page](#making-chatbots-botforge) to get an all-in-one tool, including importing, exporting, and editing jsons.
+Go to the [Quill & Anchor page](#making-chatbots-quillandanchor) to get an all-in-one tool, including importing, exporting, and editing jsons.
 
 ---
 
