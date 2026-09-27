@@ -1,11 +1,11 @@
 ---
-title: BotForge
-slug: making-chatbots-botforge
+title: Quill & Anchor
+slug: making-chatbots-quillandanchor
 order: 122
 group: Learning & Resources
 ---
 
-[BotForge](https://theforgebot.com/) is an independent, fan-made toolkit built specifically for AI companion and roleplay bot creators — not affiliated with any of the platforms it works alongside (Character.ai, JanitorAI, Chub AI, CrushOn.AI, Venus AI, SillyTavern, CraveU, TipsyChat, linkin.love, Saucepan, JuicyChat, DreamJourney, and Soulkyn are all listed as supported destinations, not owners of the tool).
+[Quill & Anchor](https://quillandanchor.us/) is an independent, fan-made toolkit built specifically for AI companion and roleplay bot creators — not affiliated with any of the platforms it works alongside (Character.ai, JanitorAI, Chub AI, CrushOn.AI, Venus AI, SillyTavern, CraveU, TipsyChat, linkin.love, Saucepan, JuicyChat, DreamJourney, and Soulkyn are all listed as supported destinations, not owners of the tool).
 
 ## What it's for
 
@@ -17,14 +17,19 @@ Think of it as a home base for your bots that exists independently of any single
 - **Lore Manager** — for tracking worldbuilding, backstory, and setting details that span multiple bots or a shared universe (useful alongside the [Multi-Bots](#making-chatbots-bot-creation-multi-bots) page if you're running a franchise-style cast).
 - **Collections** — grouping related bots or lore together.
 - **Community feed** — a space to share and discover bots from other BotForge users, separate from any one platform's own discovery feed.
+- **HTML Builder** — easily build HTMLs with customizable features.
+- **Watermarker** — stamp your images with watermarks, either text or image, with batch processing.
+- **Concept Forge** — a randomizer to help plan your next bot.
+ 
+
 
 ## Before you sign up
 
 A few practical things worth knowing going in:
 
-- **18+ only.** BotForge requires users to be 18 or older, and prohibits any sexual or romantic content involving minors — enforced with immediate account termination.
+- **18+ only.** Quill & Anchor requires users to be 18 or older, and prohibits any sexual or romantic content involving minors — enforced with immediate account termination.
 - **Accounts run through Firebase (Google)** for login and data storage — you're agreeing to Google's terms as part of using the site, on top of BotForge's own.
-- Visibility is controlled per item — anything you mark **Private** stays visible only to you; **Public** items are visible to other BotForge users.
+- Visibility is controlled per item — anything you mark **Private** stays visible only to you; **Public** items are visible to other Quill & Anchor users.
 - Core tools are free; some features (creating new bots, lorebooks, collections, and posts beyond a certain point) require a **premium subscription**, billed through Patreon.
 - Support and feature requests go through their [Discord](https://discord.gg/C7VwMfQxdZ), not email.
 
